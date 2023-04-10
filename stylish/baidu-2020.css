@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name           百度搜索的简单宽屏样式
+@namespace      www.baidu.com
+@version        1.2.0
+@description    百度搜索的简单宽屏样式
+@author         kongfl888
+==/UserStyle== */
+
 @-moz-document regexp("^https?://www\\.baidu\\.com/((s|baidu)\\?.*|#wd)") {
 .FYB_RD,
 #content_right {
@@ -75,5 +83,10 @@ div.product-item {
 /*贴吧*/
 div.new-pmd .c-span8{
     width:68%!important;
+}
+/*视频*/
+.new-pmd .c-span4{
+    width:174px!important;
+	display: inline-block;
 }
 }
