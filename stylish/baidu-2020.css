@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           百度搜索的简单宽屏样式
 @namespace      www.baidu.com
-@version        1.2.0
+@version        1.2.1
 @description    百度搜索的简单宽屏样式
 @author         kongfl888
 ==/UserStyle== */
@@ -87,6 +87,6 @@ div.new-pmd .c-span8{
 /*视频*/
 .new-pmd .c-span4{
     width:174px!important;
-	display: inline-block;
+    display: inline-block;
 }
 }
